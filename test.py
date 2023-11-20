@@ -19,7 +19,7 @@ with open('data/faces_data.pkl','rb') as f:
 knn=KNeighborsClassifier(n_neighbors=5)
 knn.fit(FACES,LABLES)
 
-imgBackground=cv2.imread("background.png")
+imgBackground=cv2.imread("image.png")
 
 COL_NAMES = ['NAME', 'TIME']
 
